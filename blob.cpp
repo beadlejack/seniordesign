@@ -36,6 +36,11 @@ struct Keycoord_t {
     double ymeters;     /* meters */
     double lat;         /* GPS latitude */
     double lon;         /* GPS longitude */
+    Keycoord_t() { x = y = xmeters = ymeters = lat = lon = 0; }
+    Keycoord_t(double latitude, double longitude) {
+        lat = latitude;
+        lon = longitude;
+    }
 };
 
 typedef vector<struct Keycoord_t *> Keys;
@@ -99,6 +104,48 @@ void setupCorners() {
              << corners[i].lon << " longitude" << endl;
     }
 
+}
+
+/* Function:    boundaries(Keys* keys)
+ *
+ * Description: Function finds minimum and maximum latitude
+ *              and longitude to establish boundaries of area
+ *              of interest. Stores boundaries in Keys vector
+ *              to be logged later.
+ */
+
+Keys *boundaries(Keys* keys) {
+    Keys* b = new Keys;
+    KeyCoordinates *nw, *ne, *se, *sw;
+
+    double minLat, maxLat, minLon, maxLon;
+    KeyCoordinates *temp = keys->at(0);
+    minLat = maxLat = temp->lat;
+    minLon = maxLon = temp->lon;
+
+    /* find min and max latitude and longitude */
+    for (unsigned i = 1; i < keys->size(); i++) {
+        temp = keys->at(i);
+        if (temp->lat < minLat)
+            minLat = temp->lat;
+        else if (temp->lat > maxLat)
+            maxLat = temp->lat;
+        if (temp->lon < minLon)
+            minLon = temp->lon;
+        else if (temp->lon > maxLon)
+            maxLon = temp->lon;
+    }
+
+    nw = new KeyCoordinates(minLat, minLon);
+    b->push_back(nw);
+    ne = new KeyCoordinates(minLat, maxLon);
+    b->push_back(ne);
+    se = new KeyCoordinates(maxLat, maxLon);
+    b->push_back(se);
+    sw = new KeyCoordinates(maxLat, minLon);
+    b->push_back(sw);
+
+    return b;
 }
 
 
@@ -188,6 +235,8 @@ void blob(string src, Keys* keys) {
         //cout << "x: " << it->pt.x << " y: " << it->pt.y << endl;
         //cout << "\t(in m) x: " << (it->pt.x*PIXELUNIT)/1000 << " y: " << (it->pt.y*46.3)/1000 << endl;
         temp = new KeyCoordinates;
+        if (isnan(it->pt.x) || isnan(it->pt.y))
+            continue;
         temp->x = it->pt.x;
         temp->y = it->pt.y;
         temp->xmeters = it->pt.x*PIXELUNIT/1000;
@@ -244,6 +293,23 @@ void readexif(string src) {
 }
 
 void log_keys(Keys* keys) {
+
+    Keys* bound = boundaries(keys);
+    KeyCoordinates *nw, *ne, *se, *sw;
+
+    nw = bound->at(0);
+    ne = bound->at(1);
+    se = bound->at(2);
+    sw = bound->at(3);
+
+    cout << endl << "Boundaries of interest area:" << endl;
+    cout << "\t" << nw->lat << "\t\t\t" << ne->lat << endl;
+    cout << "\t" << nw->lon << "\t\t\t" << ne->lon << endl;
+    cout << endl << endl;
+    cout << "\t" << sw->lat << "\t\t\t" << se->lat << endl;
+    cout << "\t" << sw->lon << "\t\t\t" << se->lon << endl;
+
+    cout << endl << "Centroids of blobs:" << endl;
     KeyCoordinates* temp;
     for (unsigned i = 0; i < keys->size(); i++) {
         temp = keys->at(i);
@@ -257,6 +323,11 @@ void log_keys(Keys* keys) {
 }
 
 int main(int argc, char* argv[]) {
+
+    if (argc != 3) {
+        cout << "Missing Arguments: ./blob <img> <pixelunit>" << endl;
+        return -1;
+    }
 
     string src = argv[1];
     PIXELUNIT = atof(argv[2]);

@@ -1,0 +1,3 @@
+/Users/Beadle/Dropbox/School/Senior Year/seniordesign/code/blob/CMakeFiles/rebuild_cache.dir
+/Users/Beadle/Dropbox/School/Senior Year/seniordesign/code/blob/CMakeFiles/edit_cache.dir
+/Users/Beadle/Dropbox/School/Senior Year/seniordesign/code/blob/CMakeFiles/blob.dir

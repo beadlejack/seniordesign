@@ -3,6 +3,25 @@
 //
 //
 //  Created by Jackson Beadle on 2/12/17.
+//  Last modified by Jackson Beadle on 6/9/17.
+//
+//  This file contains all the implementation of the feature
+//  recognition software to be included in the Rail Launch UAV
+//  senior design project, an interdisciplinary project between
+//  the mechanical and computer engineering departments at
+//  Santa Clara University.
+//
+//  Program takes input (file name of image) from an "input"
+//  directory located with this file. Output image, if written
+//  is stored in an "output" directory with the same file name
+//  as the input file. Standard out prints wherever directed.
+//
+//  This program utilizes the OpenCV computer vision library
+//  for its blob detection functionality.
+//
+//  Metadata from images is read using the EasyEXIF library, sourced
+//  from its GitHub repository at:
+//  https://github.com/mayanklahiri/easyexif
 //
 //
 
@@ -15,11 +34,16 @@
 #include <cmath>
 #include "exif.h"
 
+
+/* define pi with more sig figs */
 #define PI 3.14159265
+
 
 using namespace cv;
 using namespace std;
 
+
+/* global variables */
 easyexif::EXIFInfo info;
 static double latitude;
 static double longitude;
@@ -28,6 +52,15 @@ static double PIXELUNIT;
 static int width;
 static int height;
 
+
+/* struct:    Keycoord_t
+ *
+ * Description: data struct to hold pixel values, meter offsets,
+ *              and GPS coordinates in two-dimensions. This is the
+ *              main data type for calculating GPS coordinates for
+ *              each blob (i.e. vegetation feature)
+ *
+ */
 
 struct Keycoord_t {
     double x;           /* pixels */
@@ -43,21 +76,30 @@ struct Keycoord_t {
     }
 };
 
+/* typedefs */
 typedef vector<struct Keycoord_t *> Keys;
 typedef struct Keycoord_t KeyCoordinates;
 
 /* corners of images, clockwise starting in upper-left */
 static KeyCoordinates corners[4];
 
+
+
+/* Function:    metersToGPS(KeyCoordinates* k)
+ *
+ * Description: Function takes a KeyCoordinates struct with pixels
+ *              value and meter offsets. Using this data and the
+ *              GPS metadata from the image, can convert to GPS
+ *              coordinates.
+ *
+ */
+
 void metersToGPS(KeyCoordinates* k) {
     double rad = 6378137;
 
-    double midwidth = width/2;
-    double midheight = height/2;
-
     /* difference in Lat/Lon (m -> GPS) */
-    double diffLat = (k->ymeters - midheight)/rad;
-    double diffLon = (k->xmeters - midwidth)/(rad*cos(PI*latitude/180));
+    double diffLat = k->ymeters/rad;
+    double diffLon = k->xmeters/(rad*cos(PI*latitude/180));
 
     /* offset Lat/Lon */
     double offsetLat = latitude + diffLat * 180/PI;
@@ -68,6 +110,14 @@ void metersToGPS(KeyCoordinates* k) {
     k->lon = offsetLon;
 
 }
+
+
+/* FunctionL     setupCorners()
+ *
+ * Description: Function establishes the four corners of the image,
+ *              in pixel and GPS coordiantes.
+ *
+ */
 
 void setupCorners() {
 
@@ -105,6 +155,7 @@ void setupCorners() {
     }
 
 }
+
 
 /* Function:    boundaries(Keys* keys)
  *
@@ -160,12 +211,14 @@ Keys *boundaries(Keys* keys) {
  *               from (X,Y) coordinates to GPS coordinates.
  *
  */
+
 void blob(string src, Keys* keys) {
 
 
-    /* my code */
     /* read in image from src path */
-    Mat img = imread("input/"+src,IMREAD_GRAYSCALE);
+    Mat img_rgb = imread("input/"+src/*,IMREAD_GRAYSCALE*/);
+    Mat img;
+    inRange(img_rgb, Scalar(43,17,36), Scalar(101,65,79), img);
     cout << "image opened" << endl;
     cout << "width: " << img.cols << endl;
     cout << "height: " << img.rows << endl;
@@ -179,16 +232,16 @@ void blob(string src, Keys* keys) {
     params.minDistBetweenBlobs = 500;
 
     /*filter by color */
-    params.filterByColor = false;
-    params.blobColor = 145;
+    params.filterByColor = true;
+    params.blobColor = 255;
 
     /* filter by area */
-    params.filterByArea = false;
-    params.minArea = 1500;
+    params.filterByArea = true;
+    params.minArea = 200;
 
     /* filter by circularity */
     params.filterByCircularity = false;
-    params.minCircularity = 0.1;
+    params.minCircularity = 0.9;
 
     /* filter by convexity */
     params.filterByConvexity = false;
@@ -212,8 +265,8 @@ void blob(string src, Keys* keys) {
     cout << "keypoints detected" << endl;
 
     /* show blobs as red */
-    Mat img_keypoints;
-    drawKeypoints(img, keypoints, img_keypoints, Scalar(0,0,225), DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
+    // Mat img_keypoints;
+    // drawKeypoints(img, keypoints, img_keypoints, Scalar(0,0,255), DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
 
     cout << "keypoints drawn" << endl;
 
@@ -222,7 +275,11 @@ void blob(string src, Keys* keys) {
     compression_params.push_back(CV_IMWRITE_JPEG_QUALITY);
     compression_params.push_back(95);
     try {
-        imwrite("output/"+src,img_keypoints,compression_params);
+        // imwrite for outputing image with keypoints drawn
+        // imwrite("output/"+src,img_keypoints,compression_params);
+
+        // imwrite for outputing black/white image
+        // imwrite("output/"+src,img,compression_params);
         cout << "output image written" << endl;
     } catch (runtime_error& ex) {
         cerr << "Exception writing blob image";
@@ -239,14 +296,15 @@ void blob(string src, Keys* keys) {
             continue;
         temp->x = it->pt.x;
         temp->y = it->pt.y;
-        temp->xmeters = it->pt.x*PIXELUNIT/1000;
-        temp->ymeters = it->pt.y*PIXELUNIT/1000;
+        temp->xmeters = (it->pt.x-width/2)*PIXELUNIT/1000;
+        temp->ymeters = (it->pt.y-height/2)*PIXELUNIT/1000;
         metersToGPS(temp);
         keys->push_back(temp);
     }
 
     return;
 }
+
 
 /*  Function:    readexif()
  *
@@ -255,6 +313,7 @@ void blob(string src, Keys* keys) {
  *               waypoint reference.
  *
  */
+
 void readexif(string src) {
 
     string srcpath = "input/" + src;
@@ -292,6 +351,18 @@ void readexif(string src) {
     height = info.ImageHeight;
 }
 
+
+/* Function:    log_keys(Keys* keys)
+ *
+ * Description: This function takes in a vector of KeyCoordinates,
+ *              i.e. the vector of keypoints detected by the blob
+ *              analysis. All data stored in each keypoint is printed
+ *              to standard output for logging.
+ *
+ * Recommend:  route all stdout to a log file (i.e. ./blob > out.log)
+ *
+ */
+
 void log_keys(Keys* keys) {
 
     Keys* bound = boundaries(keys);
@@ -315,12 +386,22 @@ void log_keys(Keys* keys) {
         temp = keys->at(i);
         cout << "Keypoint: " << i << endl;
         cout << "\t(X,Y): (" << temp->x << "," << temp->y << ")" << endl;
-        cout << "\t(X,Y) (meters): (" << temp->xmeters << ","
+        cout << "\t(X,Y) offset (meters): (" << temp->xmeters << ","
              << temp->ymeters << ")" << endl;
         cout << "\tGPS: " << temp->lat << " latitude, "
              << temp->lon << " longitude" << endl;
     }
 }
+
+
+/* Function:    main(int argc, char* argvp[])
+ *
+ * Description: Main function to read metadata, conduct blob analysis,
+ *              and log all results to standard output.
+ *
+ * Execution:   "./blob <img_file> <pixelunit> > <log_file>"
+ *
+ */
 
 int main(int argc, char* argv[]) {
 

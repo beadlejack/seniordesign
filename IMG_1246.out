@@ -1,0 +1,736 @@
+GPS Latitude: 46.6536
+GPS Longitude: 6.54026
+Corner: 1
+	(X,Y): (0,0)
+	(X,Y) (meters): (0,0)
+	GPS: 46.6401 latitude, 6.51409 longitude
+Corner: 2
+	(X,Y): (4000,0)
+	(X,Y) (meters): (185.2,0)
+	GPS: 46.6401 latitude, 6.51651 longitude
+Corner: 3
+	(X,Y): (4000,3000)
+	(X,Y) (meters): (185.2,138.9)
+	GPS: 46.6414 latitude, 6.51651 longitude
+Corner: 4
+	(X,Y): (0,3000)
+	(X,Y) (meters): (0,138.9)
+	GPS: 46.6414 latitude, 6.51409 longitude
+image opened
+width: 4000
+height: 3000
+parameters setup
+blob detector initialized
+keypoints detected
+keypoints drawn
+output image written
+
+Boundaries of interest area:
+	46.6401			46.6401
+	6.51412			6.51646
+
+
+	46.6413			46.6413
+	6.51412			6.51646
+
+Centroids of blobs:
+Keypoint: 0
+	(X,Y): (3541.87,2057.34)
+	(X,Y) (meters): (163.988,95.2547)
+	GPS: 46.641 latitude, 6.51623 longitude
+Keypoint: 1
+	(X,Y): (3333.14,2554.87)
+	(X,Y) (meters): (154.324,118.291)
+	GPS: 46.6412 latitude, 6.51611 longitude
+Keypoint: 2
+	(X,Y): (3526.74,1410.19)
+	(X,Y) (meters): (163.288,65.2918)
+	GPS: 46.6407 latitude, 6.51622 longitude
+Keypoint: 3
+	(X,Y): (3030.04,2557.1)
+	(X,Y) (meters): (140.291,118.394)
+	GPS: 46.6412 latitude, 6.51592 longitude
+Keypoint: 4
+	(X,Y): (2983.64,1999.44)
+	(X,Y) (meters): (138.142,92.5741)
+	GPS: 46.641 latitude, 6.5159 longitude
+Keypoint: 5
+	(X,Y): (2894.54,1478.76)
+	(X,Y) (meters): (134.017,68.4666)
+	GPS: 46.6407 latitude, 6.51584 longitude
+Keypoint: 6
+	(X,Y): (2773.34,2305.29)
+	(X,Y) (meters): (128.406,106.735)
+	GPS: 46.6411 latitude, 6.51577 longitude
+Keypoint: 7
+	(X,Y): (2843.51,2749.69)
+	(X,Y) (meters): (131.655,127.311)
+	GPS: 46.6413 latitude, 6.51581 longitude
+Keypoint: 8
+	(X,Y): (2870.08,2324.64)
+	(X,Y) (meters): (132.885,107.631)
+	GPS: 46.6411 latitude, 6.51583 longitude
+Keypoint: 9
+	(X,Y): (3321.32,2780.42)
+	(X,Y) (meters): (153.777,128.733)
+	GPS: 46.6413 latitude, 6.5161 longitude
+Keypoint: 10
+	(X,Y): (2490.75,1961)
+	(X,Y) (meters): (115.322,90.7941)
+	GPS: 46.6409 latitude, 6.5156 longitude
+Keypoint: 11
+	(X,Y): (1934.36,2211.04)
+	(X,Y) (meters): (89.5608,102.371)
+	GPS: 46.641 latitude, 6.51526 longitude
+Keypoint: 12
+	(X,Y): (2396.51,2695.09)
+	(X,Y) (meters): (110.958,124.783)
+	GPS: 46.6413 latitude, 6.51554 longitude
+Keypoint: 13
+	(X,Y): (3146.85,1812.32)
+	(X,Y) (meters): (145.699,83.9103)
+	GPS: 46.6409 latitude, 6.51599 longitude
+Keypoint: 14
+	(X,Y): (2899.43,1117.83)
+	(X,Y) (meters): (134.243,51.7557)
+	GPS: 46.6406 latitude, 6.51584 longitude
+Keypoint: 15
+	(X,Y): (1993.39,1662.72)
+	(X,Y) (meters): (92.2939,76.9838)
+	GPS: 46.6408 latitude, 6.5153 longitude
+Keypoint: 16
+	(X,Y): (2896.54,610.26)
+	(X,Y) (meters): (134.11,28.2551)
+	GPS: 46.6404 latitude, 6.51584 longitude
+Keypoint: 17
+	(X,Y): (2819.43,1678.26)
+	(X,Y) (meters): (130.54,77.7034)
+	GPS: 46.6408 latitude, 6.5158 longitude
+Keypoint: 18
+	(X,Y): (3600.99,581.955)
+	(X,Y) (meters): (166.726,26.9445)
+	GPS: 46.6404 latitude, 6.51627 longitude
+Keypoint: 19
+	(X,Y): (2269.51,1386.19)
+	(X,Y) (meters): (105.078,64.1807)
+	GPS: 46.6407 latitude, 6.51546 longitude
+Keypoint: 20
+	(X,Y): (1978.95,1796.06)
+	(X,Y) (meters): (91.6255,83.1577)
+	GPS: 46.6409 latitude, 6.51529 longitude
+Keypoint: 21
+	(X,Y): (3072.66,1298.27)
+	(X,Y) (meters): (142.264,60.1098)
+	GPS: 46.6407 latitude, 6.51595 longitude
+Keypoint: 22
+	(X,Y): (2273.12,1769.3)
+	(X,Y) (meters): (105.245,81.9185)
+	GPS: 46.6409 latitude, 6.51547 longitude
+Keypoint: 23
+	(X,Y): (1604.94,759.791)
+	(X,Y) (meters): (74.3086,35.1783)
+	GPS: 46.6404 latitude, 6.51506 longitude
+Keypoint: 24
+	(X,Y): (1486.91,340.013)
+	(X,Y) (meters): (68.844,15.7426)
+	GPS: 46.6403 latitude, 6.51499 longitude
+Keypoint: 25
+	(X,Y): (3105.78,281.866)
+	(X,Y) (meters): (143.798,13.0504)
+	GPS: 46.6402 latitude, 6.51597 longitude
+Keypoint: 26
+	(X,Y): (1698.17,2376.47)
+	(X,Y) (meters): (78.6253,110.031)
+	GPS: 46.6411 latitude, 6.51512 longitude
+Keypoint: 27
+	(X,Y): (1650.25,1326.17)
+	(X,Y) (meters): (76.4067,61.4015)
+	GPS: 46.6407 latitude, 6.51509 longitude
+Keypoint: 28
+	(X,Y): (3758.12,1169.12)
+	(X,Y) (meters): (174.001,54.1304)
+	GPS: 46.6406 latitude, 6.51636 longitude
+Keypoint: 29
+	(X,Y): (3661,267.749)
+	(X,Y) (meters): (169.504,12.3968)
+	GPS: 46.6402 latitude, 6.51631 longitude
+Keypoint: 30
+	(X,Y): (3775.28,924.495)
+	(X,Y) (meters): (174.795,42.8041)
+	GPS: 46.6405 latitude, 6.51638 longitude
+Keypoint: 31
+	(X,Y): (3560.18,268.996)
+	(X,Y) (meters): (164.836,12.4545)
+	GPS: 46.6402 latitude, 6.51624 longitude
+Keypoint: 32
+	(X,Y): (3502.63,112.552)
+	(X,Y) (meters): (162.172,5.21118)
+	GPS: 46.6402 latitude, 6.51621 longitude
+Keypoint: 33
+	(X,Y): (3858.3,641.131)
+	(X,Y) (meters): (178.639,29.6844)
+	GPS: 46.6404 latitude, 6.51643 longitude
+Keypoint: 34
+	(X,Y): (3308.78,966.916)
+	(X,Y) (meters): (153.197,44.7682)
+	GPS: 46.6405 latitude, 6.51609 longitude
+Keypoint: 35
+	(X,Y): (2744.04,354.383)
+	(X,Y) (meters): (127.049,16.4079)
+	GPS: 46.6403 latitude, 6.51575 longitude
+Keypoint: 36
+	(X,Y): (3467.87,109.394)
+	(X,Y) (meters): (160.562,5.06494)
+	GPS: 46.6402 latitude, 6.51619 longitude
+Keypoint: 37
+	(X,Y): (2787.52,509.78)
+	(X,Y) (meters): (129.062,23.6028)
+	GPS: 46.6403 latitude, 6.51578 longitude
+Keypoint: 38
+	(X,Y): (3238.5,1190.75)
+	(X,Y) (meters): (149.943,55.1315)
+	GPS: 46.6406 latitude, 6.51605 longitude
+Keypoint: 39
+	(X,Y): (3380.55,1301.25)
+	(X,Y) (meters): (156.52,60.248)
+	GPS: 46.6407 latitude, 6.51614 longitude
+Keypoint: 40
+	(X,Y): (2296.2,291.705)
+	(X,Y) (meters): (106.314,13.506)
+	GPS: 46.6403 latitude, 6.51548 longitude
+Keypoint: 41
+	(X,Y): (1158.19,193.664)
+	(X,Y) (meters): (53.6241,8.96663)
+	GPS: 46.6402 latitude, 6.51479 longitude
+Keypoint: 42
+	(X,Y): (2323.36,890.374)
+	(X,Y) (meters): (107.572,41.2243)
+	GPS: 46.6405 latitude, 6.5155 longitude
+Keypoint: 43
+	(X,Y): (2012.1,1328.99)
+	(X,Y) (meters): (93.1604,61.5324)
+	GPS: 46.6407 latitude, 6.51531 longitude
+Keypoint: 44
+	(X,Y): (1898.9,870.302)
+	(X,Y) (meters): (87.9193,40.295)
+	GPS: 46.6405 latitude, 6.51524 longitude
+Keypoint: 45
+	(X,Y): (1655.98,1540.32)
+	(X,Y) (meters): (76.6719,71.3166)
+	GPS: 46.6408 latitude, 6.51509 longitude
+Keypoint: 46
+	(X,Y): (2593.22,89.5337)
+	(X,Y) (meters): (120.066,4.14541)
+	GPS: 46.6402 latitude, 6.51566 longitude
+Keypoint: 47
+	(X,Y): (1774.37,2009.18)
+	(X,Y) (meters): (82.1532,93.0251)
+	GPS: 46.641 latitude, 6.51516 longitude
+Keypoint: 48
+	(X,Y): (1944.47,1465.39)
+	(X,Y) (meters): (90.0289,67.8476)
+	GPS: 46.6407 latitude, 6.51527 longitude
+Keypoint: 49
+	(X,Y): (3592.25,1024.5)
+	(X,Y) (meters): (166.321,47.4344)
+	GPS: 46.6406 latitude, 6.51626 longitude
+Keypoint: 50
+	(X,Y): (2010.47,1508.61)
+	(X,Y) (meters): (93.0849,69.8485)
+	GPS: 46.6408 latitude, 6.51531 longitude
+Keypoint: 51
+	(X,Y): (2301.12,1604.41)
+	(X,Y) (meters): (106.542,74.2843)
+	GPS: 46.6408 latitude, 6.51548 longitude
+Keypoint: 52
+	(X,Y): (2070.18,727.088)
+	(X,Y) (meters): (95.8493,33.6642)
+	GPS: 46.6404 latitude, 6.51534 longitude
+Keypoint: 53
+	(X,Y): (2086.4,1171.38)
+	(X,Y) (meters): (96.6002,54.2349)
+	GPS: 46.6406 latitude, 6.51535 longitude
+Keypoint: 54
+	(X,Y): (956.61,1889.38)
+	(X,Y) (meters): (44.291,87.4785)
+	GPS: 46.6409 latitude, 6.51467 longitude
+Keypoint: 55
+	(X,Y): (3543.63,661.72)
+	(X,Y) (meters): (164.07,30.6376)
+	GPS: 46.6404 latitude, 6.51623 longitude
+Keypoint: 56
+	(X,Y): (930.158,1668.82)
+	(X,Y) (meters): (43.0663,77.2663)
+	GPS: 46.6408 latitude, 6.51465 longitude
+Keypoint: 57
+	(X,Y): (3086.69,103.455)
+	(X,Y) (meters): (142.914,4.78996)
+	GPS: 46.6402 latitude, 6.51596 longitude
+Keypoint: 58
+	(X,Y): (1881.5,420.771)
+	(X,Y) (meters): (87.1133,19.4817)
+	GPS: 46.6403 latitude, 6.51523 longitude
+Keypoint: 59
+	(X,Y): (2251.26,857.561)
+	(X,Y) (meters): (104.233,39.7051)
+	GPS: 46.6405 latitude, 6.51545 longitude
+Keypoint: 60
+	(X,Y): (2142.19,798.956)
+	(X,Y) (meters): (99.1834,36.9917)
+	GPS: 46.6405 latitude, 6.51539 longitude
+Keypoint: 61
+	(X,Y): (610.799,659.029)
+	(X,Y) (meters): (28.28,30.5131)
+	GPS: 46.6404 latitude, 6.51446 longitude
+Keypoint: 62
+	(X,Y): (2688.14,1258.83)
+	(X,Y) (meters): (124.461,58.2839)
+	GPS: 46.6407 latitude, 6.51572 longitude
+Keypoint: 63
+	(X,Y): (1111.59,229.249)
+	(X,Y) (meters): (51.4666,10.6142)
+	GPS: 46.6402 latitude, 6.51476 longitude
+Keypoint: 64
+	(X,Y): (3268.45,1309.6)
+	(X,Y) (meters): (151.329,60.6346)
+	GPS: 46.6407 latitude, 6.51607 longitude
+Keypoint: 65
+	(X,Y): (3252.03,1528.45)
+	(X,Y) (meters): (150.569,70.7674)
+	GPS: 46.6408 latitude, 6.51606 longitude
+Keypoint: 66
+	(X,Y): (2592.07,675.797)
+	(X,Y) (meters): (120.013,31.2894)
+	GPS: 46.6404 latitude, 6.51566 longitude
+Keypoint: 67
+	(X,Y): (2831.98,755.814)
+	(X,Y) (meters): (131.121,34.9942)
+	GPS: 46.6404 latitude, 6.5158 longitude
+Keypoint: 68
+	(X,Y): (2603.99,658.286)
+	(X,Y) (meters): (120.565,30.4786)
+	GPS: 46.6404 latitude, 6.51567 longitude
+Keypoint: 69
+	(X,Y): (1831.44,1634.64)
+	(X,Y) (meters): (84.7958,75.6839)
+	GPS: 46.6408 latitude, 6.5152 longitude
+Keypoint: 70
+	(X,Y): (1059.33,2634.69)
+	(X,Y) (meters): (49.0469,121.986)
+	GPS: 46.6412 latitude, 6.51473 longitude
+Keypoint: 71
+	(X,Y): (1785.08,117.357)
+	(X,Y) (meters): (82.6493,5.43362)
+	GPS: 46.6402 latitude, 6.51517 longitude
+Keypoint: 72
+	(X,Y): (2902.02,674.621)
+	(X,Y) (meters): (134.363,31.235)
+	GPS: 46.6404 latitude, 6.51585 longitude
+Keypoint: 73
+	(X,Y): (1051.21,1376.92)
+	(X,Y) (meters): (48.671,63.7514)
+	GPS: 46.6407 latitude, 6.51472 longitude
+Keypoint: 74
+	(X,Y): (1124.05,986.8)
+	(X,Y) (meters): (52.0434,45.6889)
+	GPS: 46.6405 latitude, 6.51477 longitude
+Keypoint: 75
+	(X,Y): (1424.16,1217.11)
+	(X,Y) (meters): (65.9386,56.3523)
+	GPS: 46.6406 latitude, 6.51495 longitude
+Keypoint: 76
+	(X,Y): (2605.87,214.952)
+	(X,Y) (meters): (120.652,9.95228)
+	GPS: 46.6402 latitude, 6.51567 longitude
+Keypoint: 77
+	(X,Y): (2812.7,815.23)
+	(X,Y) (meters): (130.228,37.7452)
+	GPS: 46.6405 latitude, 6.51579 longitude
+Keypoint: 78
+	(X,Y): (1863.38,97.2614)
+	(X,Y) (meters): (86.2744,4.5032)
+	GPS: 46.6402 latitude, 6.51522 longitude
+Keypoint: 79
+	(X,Y): (868.475,1079.25)
+	(X,Y) (meters): (40.2104,49.9693)
+	GPS: 46.6406 latitude, 6.51461 longitude
+Keypoint: 80
+	(X,Y): (1310.53,1102.41)
+	(X,Y) (meters): (60.6776,51.0414)
+	GPS: 46.6406 latitude, 6.51488 longitude
+Keypoint: 81
+	(X,Y): (797.699,752.965)
+	(X,Y) (meters): (36.9335,34.8623)
+	GPS: 46.6404 latitude, 6.51457 longitude
+Keypoint: 82
+	(X,Y): (1877.44,371.267)
+	(X,Y) (meters): (86.9253,17.1897)
+	GPS: 46.6403 latitude, 6.51523 longitude
+Keypoint: 83
+	(X,Y): (728.735,451.683)
+	(X,Y) (meters): (33.7404,20.9129)
+	GPS: 46.6403 latitude, 6.51453 longitude
+Keypoint: 84
+	(X,Y): (2606.96,877.479)
+	(X,Y) (meters): (120.702,40.6273)
+	GPS: 46.6405 latitude, 6.51567 longitude
+Keypoint: 85
+	(X,Y): (1973.54,201.866)
+	(X,Y) (meters): (91.375,9.3464)
+	GPS: 46.6402 latitude, 6.51528 longitude
+Keypoint: 86
+	(X,Y): (747.955,168.711)
+	(X,Y) (meters): (34.6303,7.8113)
+	GPS: 46.6402 latitude, 6.51454 longitude
+Keypoint: 87
+	(X,Y): (2983,343.25)
+	(X,Y) (meters): (138.113,15.8925)
+	GPS: 46.6403 latitude, 6.5159 longitude
+Keypoint: 88
+	(X,Y): (1008.38,890.892)
+	(X,Y) (meters): (46.6882,41.2483)
+	GPS: 46.6405 latitude, 6.5147 longitude
+Keypoint: 89
+	(X,Y): (1252.94,784)
+	(X,Y) (meters): (58.0112,36.2992)
+	GPS: 46.6405 latitude, 6.51485 longitude
+Keypoint: 90
+	(X,Y): (983.855,475.996)
+	(X,Y) (meters): (45.5525,22.0386)
+	GPS: 46.6403 latitude, 6.51468 longitude
+Keypoint: 91
+	(X,Y): (1083.11,653.482)
+	(X,Y) (meters): (50.1482,30.2562)
+	GPS: 46.6404 latitude, 6.51474 longitude
+Keypoint: 92
+	(X,Y): (1863.5,416.75)
+	(X,Y) (meters): (86.28,19.2955)
+	GPS: 46.6403 latitude, 6.51522 longitude
+Keypoint: 93
+	(X,Y): (2417.16,139.976)
+	(X,Y) (meters): (111.914,6.48088)
+	GPS: 46.6402 latitude, 6.51555 longitude
+Keypoint: 94
+	(X,Y): (3918.73,57.4497)
+	(X,Y) (meters): (181.437,2.65992)
+	GPS: 46.6402 latitude, 6.51646 longitude
+Keypoint: 95
+	(X,Y): (2277.09,210.32)
+	(X,Y) (meters): (105.429,9.73782)
+	GPS: 46.6402 latitude, 6.51547 longitude
+Keypoint: 96
+	(X,Y): (2924.87,29.3855)
+	(X,Y) (meters): (135.421,1.36055)
+	GPS: 46.6401 latitude, 6.51586 longitude
+Keypoint: 97
+	(X,Y): (2778.75,568)
+	(X,Y) (meters): (128.656,26.2984)
+	GPS: 46.6404 latitude, 6.51577 longitude
+Keypoint: 98
+	(X,Y): (2186.57,200.497)
+	(X,Y) (meters): (101.238,9.283)
+	GPS: 46.6402 latitude, 6.51541 longitude
+Keypoint: 99
+	(X,Y): (2366.21,1140.58)
+	(X,Y) (meters): (109.556,52.8089)
+	GPS: 46.6406 latitude, 6.51552 longitude
+Keypoint: 100
+	(X,Y): (290.57,340.919)
+	(X,Y) (meters): (13.4534,15.7846)
+	GPS: 46.6403 latitude, 6.51426 longitude
+Keypoint: 101
+	(X,Y): (308.69,1418.79)
+	(X,Y) (meters): (14.2923,65.6902)
+	GPS: 46.6407 latitude, 6.51427 longitude
+Keypoint: 102
+	(X,Y): (531.755,721.012)
+	(X,Y) (meters): (24.6203,33.3829)
+	GPS: 46.6404 latitude, 6.51441 longitude
+Keypoint: 103
+	(X,Y): (500.562,798.17)
+	(X,Y) (meters): (23.176,36.9553)
+	GPS: 46.6405 latitude, 6.51439 longitude
+Keypoint: 104
+	(X,Y): (2319.81,460.044)
+	(X,Y) (meters): (107.407,21.3)
+	GPS: 46.6403 latitude, 6.51549 longitude
+Keypoint: 105
+	(X,Y): (622.716,105.411)
+	(X,Y) (meters): (28.8318,4.88052)
+	GPS: 46.6402 latitude, 6.51447 longitude
+Keypoint: 106
+	(X,Y): (2403.83,580.667)
+	(X,Y) (meters): (111.297,26.8849)
+	GPS: 46.6404 latitude, 6.51554 longitude
+Keypoint: 107
+	(X,Y): (357.399,188.061)
+	(X,Y) (meters): (16.5476,8.70725)
+	GPS: 46.6402 latitude, 6.5143 longitude
+Keypoint: 108
+	(X,Y): (280.269,1251.56)
+	(X,Y) (meters): (12.9765,57.947)
+	GPS: 46.6406 latitude, 6.51426 longitude
+Keypoint: 109
+	(X,Y): (2951.62,2003.88)
+	(X,Y) (meters): (136.66,92.7798)
+	GPS: 46.641 latitude, 6.51588 longitude
+Keypoint: 110
+	(X,Y): (3245.67,1878.89)
+	(X,Y) (meters): (150.275,86.9924)
+	GPS: 46.6409 latitude, 6.51605 longitude
+Keypoint: 111
+	(X,Y): (2500.5,1763.08)
+	(X,Y) (meters): (115.773,81.6306)
+	GPS: 46.6409 latitude, 6.5156 longitude
+Keypoint: 112
+	(X,Y): (3707.4,1604.54)
+	(X,Y) (meters): (171.652,74.2904)
+	GPS: 46.6408 latitude, 6.51633 longitude
+Keypoint: 113
+	(X,Y): (2552.4,2768.16)
+	(X,Y) (meters): (118.176,128.166)
+	GPS: 46.6413 latitude, 6.51563 longitude
+Keypoint: 114
+	(X,Y): (2794.18,2717.37)
+	(X,Y) (meters): (129.371,125.814)
+	GPS: 46.6413 latitude, 6.51578 longitude
+Keypoint: 115
+	(X,Y): (2395.57,2727.51)
+	(X,Y) (meters): (110.915,126.284)
+	GPS: 46.6413 latitude, 6.51554 longitude
+Keypoint: 116
+	(X,Y): (3174.44,2689.95)
+	(X,Y) (meters): (146.977,124.544)
+	GPS: 46.6412 latitude, 6.51601 longitude
+Keypoint: 117
+	(X,Y): (1967.93,2879.66)
+	(X,Y) (meters): (91.115,133.328)
+	GPS: 46.6413 latitude, 6.51528 longitude
+Keypoint: 118
+	(X,Y): (2699.36,2517.68)
+	(X,Y) (meters): (124.981,116.568)
+	GPS: 46.6412 latitude, 6.51572 longitude
+Keypoint: 119
+	(X,Y): (2232.84,2767.45)
+	(X,Y) (meters): (103.381,128.133)
+	GPS: 46.6413 latitude, 6.51544 longitude
+Keypoint: 120
+	(X,Y): (1458.62,2453.14)
+	(X,Y) (meters): (67.5341,113.58)
+	GPS: 46.6411 latitude, 6.51497 longitude
+Keypoint: 121
+	(X,Y): (1383.39,2371.63)
+	(X,Y) (meters): (64.0509,109.806)
+	GPS: 46.6411 latitude, 6.51493 longitude
+Keypoint: 122
+	(X,Y): (1847.32,2132.14)
+	(X,Y) (meters): (85.5309,98.718)
+	GPS: 46.641 latitude, 6.51521 longitude
+Keypoint: 123
+	(X,Y): (1058.7,2345.37)
+	(X,Y) (meters): (49.0178,108.591)
+	GPS: 46.6411 latitude, 6.51473 longitude
+Keypoint: 124
+	(X,Y): (501.266,2670.05)
+	(X,Y) (meters): (23.2086,123.623)
+	GPS: 46.6412 latitude, 6.51439 longitude
+Keypoint: 125
+	(X,Y): (1316.05,1670.18)
+	(X,Y) (meters): (60.9332,77.3293)
+	GPS: 46.6408 latitude, 6.51489 longitude
+Keypoint: 126
+	(X,Y): (2373.6,1929.59)
+	(X,Y) (meters): (109.898,89.3399)
+	GPS: 46.6409 latitude, 6.51553 longitude
+Keypoint: 127
+	(X,Y): (1924.86,1702.61)
+	(X,Y) (meters): (89.1211,78.8307)
+	GPS: 46.6408 latitude, 6.51525 longitude
+Keypoint: 128
+	(X,Y): (1679.77,1691.21)
+	(X,Y) (meters): (77.7732,78.3031)
+	GPS: 46.6408 latitude, 6.51511 longitude
+Keypoint: 129
+	(X,Y): (1956.73,1604.9)
+	(X,Y) (meters): (90.5968,74.3068)
+	GPS: 46.6408 latitude, 6.51527 longitude
+Keypoint: 130
+	(X,Y): (2306.71,1368.67)
+	(X,Y) (meters): (106.801,63.3693)
+	GPS: 46.6407 latitude, 6.51549 longitude
+Keypoint: 131
+	(X,Y): (1726.47,1573.83)
+	(X,Y) (meters): (79.9355,72.8681)
+	GPS: 46.6408 latitude, 6.51513 longitude
+Keypoint: 132
+	(X,Y): (1311.93,1606.02)
+	(X,Y) (meters): (60.7424,74.3588)
+	GPS: 46.6408 latitude, 6.51488 longitude
+Keypoint: 133
+	(X,Y): (2547.4,1412.09)
+	(X,Y) (meters): (117.944,65.3798)
+	GPS: 46.6407 latitude, 6.51563 longitude
+Keypoint: 134
+	(X,Y): (2375.72,1295.19)
+	(X,Y) (meters): (109.996,59.9673)
+	GPS: 46.6407 latitude, 6.51553 longitude
+Keypoint: 135
+	(X,Y): (2476.91,1516.7)
+	(X,Y) (meters): (114.681,70.223)
+	GPS: 46.6408 latitude, 6.51559 longitude
+Keypoint: 136
+	(X,Y): (1316.88,1277.89)
+	(X,Y) (meters): (60.9717,59.1665)
+	GPS: 46.6407 latitude, 6.51489 longitude
+Keypoint: 137
+	(X,Y): (1041.9,2186.62)
+	(X,Y) (meters): (48.2399,101.241)
+	GPS: 46.641 latitude, 6.51472 longitude
+Keypoint: 138
+	(X,Y): (834.478,2482.28)
+	(X,Y) (meters): (38.6363,114.93)
+	GPS: 46.6412 latitude, 6.51459 longitude
+Keypoint: 139
+	(X,Y): (1179.33,1965.28)
+	(X,Y) (meters): (54.6031,90.9925)
+	GPS: 46.6409 latitude, 6.5148 longitude
+Keypoint: 140
+	(X,Y): (1342.96,1304.25)
+	(X,Y) (meters): (62.1792,60.3867)
+	GPS: 46.6407 latitude, 6.5149 longitude
+Keypoint: 141
+	(X,Y): (1801.19,1241.09)
+	(X,Y) (meters): (83.3949,57.4625)
+	GPS: 46.6406 latitude, 6.51518 longitude
+Keypoint: 142
+	(X,Y): (2794.59,1434.82)
+	(X,Y) (meters): (129.39,66.4321)
+	GPS: 46.6407 latitude, 6.51578 longitude
+Keypoint: 143
+	(X,Y): (293.047,2205.23)
+	(X,Y) (meters): (13.5681,102.102)
+	GPS: 46.641 latitude, 6.51427 longitude
+Keypoint: 144
+	(X,Y): (263.941,632.291)
+	(X,Y) (meters): (12.2205,29.2751)
+	GPS: 46.6404 latitude, 6.51425 longitude
+Keypoint: 145
+	(X,Y): (117.772,1317.9)
+	(X,Y) (meters): (5.45283,61.0189)
+	GPS: 46.6407 latitude, 6.51416 longitude
+Keypoint: 146
+	(X,Y): (558.359,767.272)
+	(X,Y) (meters): (25.852,35.5247)
+	GPS: 46.6404 latitude, 6.51443 longitude
+Keypoint: 147
+	(X,Y): (711.093,843.169)
+	(X,Y) (meters): (32.9236,39.0387)
+	GPS: 46.6405 latitude, 6.51452 longitude
+Keypoint: 148
+	(X,Y): (76.5723,480.205)
+	(X,Y) (meters): (3.5453,22.2335)
+	GPS: 46.6403 latitude, 6.51413 longitude
+Keypoint: 149
+	(X,Y): (255.877,805.251)
+	(X,Y) (meters): (11.8471,37.2831)
+	GPS: 46.6405 latitude, 6.51424 longitude
+Keypoint: 150
+	(X,Y): (879.52,1153.6)
+	(X,Y) (meters): (40.7218,53.4117)
+	GPS: 46.6406 latitude, 6.51462 longitude
+Keypoint: 151
+	(X,Y): (55.9348,318.09)
+	(X,Y) (meters): (2.58978,14.7276)
+	GPS: 46.6403 latitude, 6.51412 longitude
+Keypoint: 152
+	(X,Y): (560.122,632.889)
+	(X,Y) (meters): (25.9337,29.3028)
+	GPS: 46.6404 latitude, 6.51443 longitude
+Keypoint: 153
+	(X,Y): (364.393,1784.29)
+	(X,Y) (meters): (16.8714,82.6124)
+	GPS: 46.6409 latitude, 6.51431 longitude
+Keypoint: 154
+	(X,Y): (229.5,750.5)
+	(X,Y) (meters): (10.6258,34.7482)
+	GPS: 46.6404 latitude, 6.51423 longitude
+Keypoint: 155
+	(X,Y): (600.353,268.128)
+	(X,Y) (meters): (27.7963,12.4143)
+	GPS: 46.6402 latitude, 6.51445 longitude
+Keypoint: 156
+	(X,Y): (104.863,235.411)
+	(X,Y) (meters): (4.85515,10.8995)
+	GPS: 46.6402 latitude, 6.51415 longitude
+Keypoint: 157
+	(X,Y): (643.352,2772.82)
+	(X,Y) (meters): (29.7872,128.381)
+	GPS: 46.6413 latitude, 6.51448 longitude
+Keypoint: 158
+	(X,Y): (589.855,2555.84)
+	(X,Y) (meters): (27.3103,118.335)
+	GPS: 46.6412 latitude, 6.51445 longitude
+Keypoint: 159
+	(X,Y): (284.776,2733.8)
+	(X,Y) (meters): (13.1851,126.575)
+	GPS: 46.6413 latitude, 6.51426 longitude
+Keypoint: 160
+	(X,Y): (227.185,2259.46)
+	(X,Y) (meters): (10.5187,104.613)
+	GPS: 46.6411 latitude, 6.51423 longitude
+Keypoint: 161
+	(X,Y): (1052.79,2779.58)
+	(X,Y) (meters): (48.7444,128.695)
+	GPS: 46.6413 latitude, 6.51473 longitude
+Keypoint: 162
+	(X,Y): (323.152,2880.82)
+	(X,Y) (meters): (14.962,133.382)
+	GPS: 46.6413 latitude, 6.51428 longitude
+Keypoint: 163
+	(X,Y): (660.66,1958.68)
+	(X,Y) (meters): (30.5886,90.6868)
+	GPS: 46.6409 latitude, 6.51449 longitude
+Keypoint: 164
+	(X,Y): (327.513,2028.14)
+	(X,Y) (meters): (15.1639,93.903)
+	GPS: 46.641 latitude, 6.51429 longitude
+Keypoint: 165
+	(X,Y): (1340.26,2039.76)
+	(X,Y) (meters): (62.054,94.4411)
+	GPS: 46.641 latitude, 6.5149 longitude
+Keypoint: 166
+	(X,Y): (1292.85,2115.13)
+	(X,Y) (meters): (59.859,97.9304)
+	GPS: 46.641 latitude, 6.51487 longitude
+Keypoint: 167
+	(X,Y): (799.85,1547.93)
+	(X,Y) (meters): (37.0331,71.6691)
+	GPS: 46.6408 latitude, 6.51457 longitude
+Keypoint: 168
+	(X,Y): (1683.68,2360.73)
+	(X,Y) (meters): (77.9545,109.302)
+	GPS: 46.6411 latitude, 6.51511 longitude
+Keypoint: 169
+	(X,Y): (58.7023,1628.09)
+	(X,Y) (meters): (2.71792,75.3805)
+	GPS: 46.6408 latitude, 6.51412 longitude
+Keypoint: 170
+	(X,Y): (45.5964,1370.76)
+	(X,Y) (meters): (2.11111,63.4662)
+	GPS: 46.6407 latitude, 6.51412 longitude
+Keypoint: 171
+	(X,Y): (3895.65,150.677)
+	(X,Y) (meters): (180.368,6.97632)
+	GPS: 46.6402 latitude, 6.51645 longitude
+Keypoint: 172
+	(X,Y): (3897.41,2037.16)
+	(X,Y) (meters): (180.45,94.3205)
+	GPS: 46.641 latitude, 6.51645 longitude
+Keypoint: 173
+	(X,Y): (79.9791,2499.7)
+	(X,Y) (meters): (3.70303,115.736)
+	GPS: 46.6412 latitude, 6.51414 longitude
+Keypoint: 174
+	(X,Y): (1693.25,2640.5)
+	(X,Y) (meters): (78.3975,122.255)
+	GPS: 46.6412 latitude, 6.51511 longitude

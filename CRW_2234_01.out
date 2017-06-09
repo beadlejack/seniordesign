@@ -1,0 +1,524 @@
+GPS Latitude: 0
+GPS Longitude: 0
+Corner: 1
+	(X,Y): (0,0)
+	(X,Y) (meters): (0,0)
+	GPS: 0 latitude, 0 longitude
+Corner: 2
+	(X,Y): (3456,0)
+	(X,Y) (meters): (160.013,0)
+	GPS: 0 latitude, 0.00143742 longitude
+Corner: 3
+	(X,Y): (3456,4608)
+	(X,Y) (meters): (160.013,213.35)
+	GPS: 0.00191656 latitude, 0.00143742 longitude
+Corner: 4
+	(X,Y): (0,4608)
+	(X,Y) (meters): (0,213.35)
+	GPS: 0.00191656 latitude, 0 longitude
+image opened
+width: 3456
+height: 4608
+parameters setup
+blob detector initialized
+keypoints detected
+keypoints drawn
+output image written
+
+Boundaries of interest area:
+	-0.000899845			-0.000899845
+	-0.000704697			0.000675616
+
+
+	0.000903074			0.000903074
+	-0.000704697			0.000675616
+
+Centroids of blobs:
+Keypoint: 0
+	(X,Y): (1238.76,4166.18)
+	(X,Y) offset (meters): (-22.6519,86.2191)
+	GPS: 0.000774519 latitude, -0.000203486 longitude
+Keypoint: 1
+	(X,Y): (2602.77,4040.89)
+	(X,Y) offset (meters): (40.5017,80.418)
+	GPS: 0.000722407 latitude, 0.000363833 longitude
+Keypoint: 2
+	(X,Y): (1812.08,3850.12)
+	(X,Y) offset (meters): (3.89293,71.5853)
+	GPS: 0.000643062 latitude, 3.49708e-05 longitude
+Keypoint: 3
+	(X,Y): (2945.32,3977.24)
+	(X,Y) offset (meters): (56.3619,77.4711)
+	GPS: 0.000695935 latitude, 0.000506307 longitude
+Keypoint: 4
+	(X,Y): (2477.01,4475.27)
+	(X,Y) offset (meters): (34.6789,100.53)
+	GPS: 0.000903074 latitude, 0.000311526 longitude
+Keypoint: 5
+	(X,Y): (667.494,3887.06)
+	(X,Y) offset (meters): (-49.1014,73.2957)
+	GPS: 0.000658427 latitude, -0.000441086 longitude
+Keypoint: 6
+	(X,Y): (1511.6,4372.1)
+	(X,Y) offset (meters): (-10.0193,95.7531)
+	GPS: 0.000860165 latitude, -9.00048e-05 longitude
+Keypoint: 7
+	(X,Y): (1163.04,4253.29)
+	(X,Y) offset (meters): (-26.1576,90.252)
+	GPS: 0.000810747 latitude, -0.000234978 longitude
+Keypoint: 8
+	(X,Y): (1044.01,3511.22)
+	(X,Y) offset (meters): (-31.6687,55.8941)
+	GPS: 0.000502105 latitude, -0.000284485 longitude
+Keypoint: 9
+	(X,Y): (379.934,3902.23)
+	(X,Y) offset (meters): (-62.4154,73.9981)
+	GPS: 0.000664737 latitude, -0.000560687 longitude
+Keypoint: 10
+	(X,Y): (986.364,4370.98)
+	(X,Y) offset (meters): (-34.3378,95.7011)
+	GPS: 0.000859697 latitude, -0.000308461 longitude
+Keypoint: 11
+	(X,Y): (2041.84,3928.89)
+	(X,Y) offset (meters): (14.5309,75.2322)
+	GPS: 0.000675822 latitude, 0.000130534 longitude
+Keypoint: 12
+	(X,Y): (1654.06,4273.68)
+	(X,Y) offset (meters): (-3.42364,91.1964)
+	GPS: 0.000819231 latitude, -3.07551e-05 longitude
+Keypoint: 13
+	(X,Y): (301.734,3819.26)
+	(X,Y) offset (meters): (-66.0361,70.1564)
+	GPS: 0.000630226 latitude, -0.000593213 longitude
+Keypoint: 14
+	(X,Y): (2787.08,3730.61)
+	(X,Y) offset (meters): (49.0356,66.0521)
+	GPS: 0.000593356 latitude, 0.000440494 longitude
+Keypoint: 15
+	(X,Y): (1741.29,4308.96)
+	(X,Y) offset (meters): (0.615402,92.8297)
+	GPS: 0.000833903 latitude, 5.52825e-06 longitude
+Keypoint: 16
+	(X,Y): (353.952,4182.78)
+	(X,Y) offset (meters): (-63.6184,86.9874)
+	GPS: 0.000781421 latitude, -0.000571494 longitude
+Keypoint: 17
+	(X,Y): (2544.18,3479.12)
+	(X,Y) offset (meters): (37.7892,54.4082)
+	GPS: 0.000488757 latitude, 0.000339467 longitude
+Keypoint: 18
+	(X,Y): (1590.32,3257.7)
+	(X,Y) offset (meters): (-6.3746,44.1563)
+	GPS: 0.000396662 latitude, -5.7264e-05 longitude
+Keypoint: 19
+	(X,Y): (1599.18,3928.89)
+	(X,Y) offset (meters): (-5.96452,75.2325)
+	GPS: 0.000675825 latitude, -5.35802e-05 longitude
+Keypoint: 20
+	(X,Y): (1450.65,3623.49)
+	(X,Y) offset (meters): (-12.8414,61.0922)
+	GPS: 0.000548801 latitude, -0.000115357 longitude
+Keypoint: 21
+	(X,Y): (2215.83,4069.57)
+	(X,Y) offset (meters): (22.5867,81.7457)
+	GPS: 0.000734335 latitude, 0.0002029 longitude
+Keypoint: 22
+	(X,Y): (1203.37,3509.36)
+	(X,Y) offset (meters): (-24.2906,55.8084)
+	GPS: 0.000501335 latitude, -0.000218206 longitude
+Keypoint: 23
+	(X,Y): (1664.59,3934.72)
+	(X,Y) offset (meters): (-2.93572,75.5022)
+	GPS: 0.000678248 latitude, -2.6372e-05 longitude
+Keypoint: 24
+	(X,Y): (714.95,4044.74)
+	(X,Y) offset (meters): (-46.9042,80.596)
+	GPS: 0.000724007 latitude, -0.000421348 longitude
+Keypoint: 25
+	(X,Y): (3254.56,3979.65)
+	(X,Y) offset (meters): (70.6799,77.5825)
+	GPS: 0.000696936 latitude, 0.000634929 longitude
+Keypoint: 26
+	(X,Y): (1049.47,4100.3)
+	(X,Y) offset (meters): (-31.416,83.1688)
+	GPS: 0.000747118 latitude, -0.000282215 longitude
+Keypoint: 27
+	(X,Y): (1262.78,4069.08)
+	(X,Y) offset (meters): (-21.5398,81.7232)
+	GPS: 0.000734132 latitude, -0.000193495 longitude
+Keypoint: 28
+	(X,Y): (1490.95,3202)
+	(X,Y) offset (meters): (-10.9754,41.5774)
+	GPS: 0.000373496 latitude, -9.85937e-05 longitude
+Keypoint: 29
+	(X,Y): (3125.11,4459.93)
+	(X,Y) offset (meters): (64.6861,99.8195)
+	GPS: 0.000896693 latitude, 0.000581085 longitude
+Keypoint: 30
+	(X,Y): (3301.04,3650.14)
+	(X,Y) offset (meters): (72.8316,62.3263)
+	GPS: 0.000559886 latitude, 0.000654257 longitude
+Keypoint: 31
+	(X,Y): (1799.11,3316.07)
+	(X,Y) offset (meters): (3.29234,46.8588)
+	GPS: 0.00042094 latitude, 2.95756e-05 longitude
+Keypoint: 32
+	(X,Y): (263.744,3071.62)
+	(X,Y) offset (meters): (-67.7951,35.5407)
+	GPS: 0.000319268 latitude, -0.000609013 longitude
+Keypoint: 33
+	(X,Y): (997.765,2956.62)
+	(X,Y) offset (meters): (-33.8099,30.2164)
+	GPS: 0.000271438 latitude, -0.000303719 longitude
+Keypoint: 34
+	(X,Y): (1650.28,3941.65)
+	(X,Y) offset (meters): (-3.5985,75.823)
+	GPS: 0.00068113 latitude, -3.23259e-05 longitude
+Keypoint: 35
+	(X,Y): (1203.33,2911.5)
+	(X,Y) offset (meters): (-24.2921,28.1271)
+	GPS: 0.00025267 latitude, -0.000218219 longitude
+Keypoint: 36
+	(X,Y): (232.819,3556.26)
+	(X,Y) offset (meters): (-69.2269,57.9798)
+	GPS: 0.000520841 latitude, -0.000621876 longitude
+Keypoint: 37
+	(X,Y): (254.607,3165.67)
+	(X,Y) offset (meters): (-68.2181,39.8955)
+	GPS: 0.000358387 latitude, -0.000612814 longitude
+Keypoint: 38
+	(X,Y): (1917.25,3267.2)
+	(X,Y) offset (meters): (8.76226,44.5962)
+	GPS: 0.000400615 latitude, 7.87127e-05 longitude
+Keypoint: 39
+	(X,Y): (286.408,2903.98)
+	(X,Y) offset (meters): (-66.7457,27.7791)
+	GPS: 0.000249544 latitude, -0.000599587 longitude
+Keypoint: 40
+	(X,Y): (823.439,3711.46)
+	(X,Y) offset (meters): (-41.8812,65.1655)
+	GPS: 0.000585391 latitude, -0.000376225 longitude
+Keypoint: 41
+	(X,Y): (3212.88,3401.17)
+	(X,Y) offset (meters): (68.7498,50.7988)
+	GPS: 0.000456334 latitude, 0.00061759 longitude
+Keypoint: 42
+	(X,Y): (2663.74,3584.36)
+	(X,Y) offset (meters): (43.3245,59.2807)
+	GPS: 0.000532528 latitude, 0.000389191 longitude
+Keypoint: 43
+	(X,Y): (417.264,2548.1)
+	(X,Y) offset (meters): (-60.6871,11.3018)
+	GPS: 0.000101526 latitude, -0.000545161 longitude
+Keypoint: 44
+	(X,Y): (2478.12,3288.8)
+	(X,Y) offset (meters): (34.7304,45.5964)
+	GPS: 0.000409599 latitude, 0.000311989 longitude
+Keypoint: 45
+	(X,Y): (2050.06,3415.54)
+	(X,Y) offset (meters): (14.9114,51.4645)
+	GPS: 0.000462313 latitude, 0.000133951 longitude
+Keypoint: 46
+	(X,Y): (1186.18,2868.18)
+	(X,Y) offset (meters): (-25.0862,26.1215)
+	GPS: 0.000234654 latitude, -0.000225353 longitude
+Keypoint: 47
+	(X,Y): (357.937,2469.47)
+	(X,Y) offset (meters): (-63.4339,7.66145)
+	GPS: 6.8824e-05 latitude, -0.000569837 longitude
+Keypoint: 48
+	(X,Y): (968.025,2698.3)
+	(X,Y) offset (meters): (-35.1868,18.2559)
+	GPS: 0.000163996 latitude, -0.000316089 longitude
+Keypoint: 49
+	(X,Y): (138.538,3278.96)
+	(X,Y) offset (meters): (-73.5921,45.1406)
+	GPS: 0.000405505 latitude, -0.000661089 longitude
+Keypoint: 50
+	(X,Y): (379.479,3178.8)
+	(X,Y) offset (meters): (-62.4365,40.5032)
+	GPS: 0.000363847 latitude, -0.000560877 longitude
+Keypoint: 51
+	(X,Y): (2117.26,3035.92)
+	(X,Y) offset (meters): (18.0227,33.888)
+	GPS: 0.000304421 latitude, 0.0001619 longitude
+Keypoint: 52
+	(X,Y): (365.711,2466.6)
+	(X,Y) offset (meters): (-63.074,7.52818)
+	GPS: 6.76268e-05 latitude, -0.000566603 longitude
+Keypoint: 53
+	(X,Y): (167.442,2468.28)
+	(X,Y) offset (meters): (-72.2538,7.60607)
+	GPS: 6.83265e-05 latitude, -0.000649067 longitude
+Keypoint: 54
+	(X,Y): (1364.55,2744.29)
+	(X,Y) offset (meters): (-16.8278,20.3855)
+	GPS: 0.000183126 latitude, -0.000151166 longitude
+Keypoint: 55
+	(X,Y): (1082.25,2498.91)
+	(X,Y) offset (meters): (-29.898,9.02432)
+	GPS: 8.10668e-05 latitude, -0.000268579 longitude
+Keypoint: 56
+	(X,Y): (2727.31,2849.08)
+	(X,Y) offset (meters): (46.2681,25.2374)
+	GPS: 0.000226711 latitude, 0.000415634 longitude
+Keypoint: 57
+	(X,Y): (33.6912,2892.1)
+	(X,Y) offset (meters): (-78.4465,27.229)
+	GPS: 0.000244602 latitude, -0.000704697 longitude
+Keypoint: 58
+	(X,Y): (1511.94,2985.69)
+	(X,Y) offset (meters): (-10.0036,31.5622)
+	GPS: 0.000283528 latitude, -8.98639e-05 longitude
+Keypoint: 59
+	(X,Y): (998.471,2447.61)
+	(X,Y) offset (meters): (-33.7772,6.64926)
+	GPS: 5.97313e-05 latitude, -0.000303426 longitude
+Keypoint: 60
+	(X,Y): (362.6,2104.96)
+	(X,Y) offset (meters): (-63.218,-9.21537)
+	GPS: -8.27831e-05 latitude, -0.000567897 longitude
+Keypoint: 61
+	(X,Y): (1131.04,2687.43)
+	(X,Y) offset (meters): (-27.6393,17.7528)
+	GPS: 0.000159476 latitude, -0.000248288 longitude
+Keypoint: 62
+	(X,Y): (396.133,2111.85)
+	(X,Y) offset (meters): (-61.6655,-8.89651)
+	GPS: -7.99187e-05 latitude, -0.00055395 longitude
+Keypoint: 63
+	(X,Y): (753.235,2413.12)
+	(X,Y) offset (meters): (-45.1316,5.05204)
+	GPS: 4.53832e-05 latitude, -0.000405424 longitude
+Keypoint: 64
+	(X,Y): (395.017,2630.49)
+	(X,Y) offset (meters): (-61.7171,15.1165)
+	GPS: 0.000135794 latitude, -0.000554414 longitude
+Keypoint: 65
+	(X,Y): (622.587,2449.16)
+	(X,Y) offset (meters): (-51.1806,6.7207)
+	GPS: 6.03731e-05 latitude, -0.000459763 longitude
+Keypoint: 66
+	(X,Y): (570.667,2370.06)
+	(X,Y) offset (meters): (-53.5845,3.05877)
+	GPS: 2.74774e-05 latitude, -0.000481358 longitude
+Keypoint: 67
+	(X,Y): (129.476,2041.87)
+	(X,Y) offset (meters): (-74.0116,-12.1364)
+	GPS: -0.000109023 latitude, -0.000664858 longitude
+Keypoint: 68
+	(X,Y): (663.901,2171.27)
+	(X,Y) offset (meters): (-49.2678,-6.14553)
+	GPS: -5.52063e-05 latitude, -0.00044258 longitude
+Keypoint: 69
+	(X,Y): (2959.11,1855.1)
+	(X,Y) offset (meters): (57.0004,-20.7842)
+	GPS: -0.000186708 latitude, 0.000512043 longitude
+Keypoint: 70
+	(X,Y): (3090.59,2052.2)
+	(X,Y) offset (meters): (63.0881,-11.6581)
+	GPS: -0.000104727 latitude, 0.00056673 longitude
+Keypoint: 71
+	(X,Y): (2787.02,1546.46)
+	(X,Y) offset (meters): (49.0325,-35.074)
+	GPS: -0.000315075 latitude, 0.000440466 longitude
+Keypoint: 72
+	(X,Y): (2702.81,1431.73)
+	(X,Y) offset (meters): (45.1337,-40.3862)
+	GPS: -0.000362796 latitude, 0.000405443 longitude
+Keypoint: 73
+	(X,Y): (3352.39,1495.52)
+	(X,Y) offset (meters): (75.2092,-37.4325)
+	GPS: -0.000336262 latitude, 0.000675616 longitude
+Keypoint: 74
+	(X,Y): (2392.31,1440.59)
+	(X,Y) offset (meters): (30.7576,-39.9757)
+	GPS: -0.000359108 latitude, 0.000276301 longitude
+Keypoint: 75
+	(X,Y): (2810.83,1833.7)
+	(X,Y) offset (meters): (50.1352,-21.7749)
+	GPS: -0.000195608 latitude, 0.000450372 longitude
+Keypoint: 76
+	(X,Y): (3269.99,2262.24)
+	(X,Y) offset (meters): (71.394,-1.9337)
+	GPS: -1.73708e-05 latitude, 0.000641343 longitude
+Keypoint: 77
+	(X,Y): (2033.34,1164.32)
+	(X,Y) offset (meters): (14.1372,-52.7672)
+	GPS: -0.000474016 latitude, 0.000126997 longitude
+Keypoint: 78
+	(X,Y): (2694.11,1599.13)
+	(X,Y) offset (meters): (44.7307,-32.6357)
+	GPS: -0.000293171 latitude, 0.000401823 longitude
+Keypoint: 79
+	(X,Y): (2307.04,1173.09)
+	(X,Y) offset (meters): (26.8097,-52.3613)
+	GPS: -0.00047037 latitude, 0.000240836 longitude
+Keypoint: 80
+	(X,Y): (1996.62,987.367)
+	(X,Y) offset (meters): (12.437,-60.9601)
+	GPS: -0.000547614 latitude, 0.000111723 longitude
+Keypoint: 81
+	(X,Y): (3144.21,1043.07)
+	(X,Y) offset (meters): (65.5705,-58.381)
+	GPS: -0.000524445 latitude, 0.00058903 longitude
+Keypoint: 82
+	(X,Y): (1621.54,770.282)
+	(X,Y) offset (meters): (-4.92902,-71.0111)
+	GPS: -0.000637904 latitude, -4.42782e-05 longitude
+Keypoint: 83
+	(X,Y): (2890.52,417.773)
+	(X,Y) offset (meters): (53.8249,-87.3323)
+	GPS: -0.00078452 latitude, 0.000483517 longitude
+Keypoint: 84
+	(X,Y): (1937.95,1634.67)
+	(X,Y) offset (meters): (9.72058,-30.9902)
+	GPS: -0.00027839 latitude, 8.73215e-05 longitude
+Keypoint: 85
+	(X,Y): (2249.34,977.681)
+	(X,Y) offset (meters): (24.1381,-61.4086)
+	GPS: -0.000551643 latitude, 0.000216836 longitude
+Keypoint: 86
+	(X,Y): (2825.49,392.574)
+	(X,Y) offset (meters): (50.8137,-88.499)
+	GPS: -0.000795 latitude, 0.000456467 longitude
+Keypoint: 87
+	(X,Y): (3278.95,1038.18)
+	(X,Y) offset (meters): (71.8092,-58.6074)
+	GPS: -0.00052648 latitude, 0.000645073 longitude
+Keypoint: 88
+	(X,Y): (1906.35,1344.09)
+	(X,Y) offset (meters): (8.25779,-44.4441)
+	GPS: -0.000399248 latitude, 7.4181e-05 longitude
+Keypoint: 89
+	(X,Y): (2178.58,1320.19)
+	(X,Y) offset (meters): (20.8619,-45.5506)
+	GPS: -0.000409188 latitude, 0.000187405 longitude
+Keypoint: 90
+	(X,Y): (1640.9,574.355)
+	(X,Y) offset (meters): (-4.03293,-80.0826)
+	GPS: -0.000719394 latitude, -3.62284e-05 longitude
+Keypoint: 91
+	(X,Y): (3118.98,313.137)
+	(X,Y) offset (meters): (64.4026,-92.177)
+	GPS: -0.00082804 latitude, 0.000578538 longitude
+Keypoint: 92
+	(X,Y): (2047.6,1026.37)
+	(X,Y) offset (meters): (14.7973,-59.1542)
+	GPS: -0.000531391 latitude, 0.000132926 longitude
+Keypoint: 93
+	(X,Y): (3217.76,769.39)
+	(X,Y) offset (meters): (68.9758,-71.0524)
+	GPS: -0.000638275 latitude, 0.00061962 longitude
+Keypoint: 94
+	(X,Y): (2354.38,596.838)
+	(X,Y) offset (meters): (29.0013,-79.0416)
+	GPS: -0.000710043 latitude, 0.000260524 longitude
+Keypoint: 95
+	(X,Y): (3007.06,475.475)
+	(X,Y) offset (meters): (59.2203,-84.6607)
+	GPS: -0.00076052 latitude, 0.000531985 longitude
+Keypoint: 96
+	(X,Y): (1441.77,385.169)
+	(X,Y) offset (meters): (-13.2525,-88.8419)
+	GPS: -0.00079808 latitude, -0.000119049 longitude
+Keypoint: 97
+	(X,Y): (3276.21,455.759)
+	(X,Y) offset (meters): (71.6821,-85.5736)
+	GPS: -0.00076872 latitude, 0.000643931 longitude
+Keypoint: 98
+	(X,Y): (1812.41,1053.92)
+	(X,Y) offset (meters): (3.90838,-57.8787)
+	GPS: -0.000519933 latitude, 3.51095e-05 longitude
+Keypoint: 99
+	(X,Y): (847.622,435.594)
+	(X,Y) offset (meters): (-40.7615,-86.5072)
+	GPS: -0.000777107 latitude, -0.000366167 longitude
+Keypoint: 100
+	(X,Y): (1290.97,548.287)
+	(X,Y) offset (meters): (-20.2347,-81.2895)
+	GPS: -0.000730236 latitude, -0.000181771 longitude
+Keypoint: 101
+	(X,Y): (2409.21,822.095)
+	(X,Y) offset (meters): (31.5401,-68.6122)
+	GPS: -0.000616354 latitude, 0.00028333 longitude
+Keypoint: 102
+	(X,Y): (1609.59,734.617)
+	(X,Y) offset (meters): (-5.48237,-72.6624)
+	GPS: -0.000652738 latitude, -4.92489e-05 longitude
+Keypoint: 103
+	(X,Y): (834.756,496.681)
+	(X,Y) offset (meters): (-41.3572,-83.6789)
+	GPS: -0.0007517 latitude, -0.000371518 longitude
+Keypoint: 104
+	(X,Y): (2153.64,353.982)
+	(X,Y) offset (meters): (19.7071,-90.2858)
+	GPS: -0.000811051 latitude, 0.000177032 longitude
+Keypoint: 105
+	(X,Y): (2487.15,220.402)
+	(X,Y) offset (meters): (35.1487,-96.4706)
+	GPS: -0.00086661 latitude, 0.000315746 longitude
+Keypoint: 106
+	(X,Y): (3178.34,704.473)
+	(X,Y) offset (meters): (67.1507,-74.0581)
+	GPS: -0.000665275 latitude, 0.000603225 longitude
+Keypoint: 107
+	(X,Y): (2503.73,759.055)
+	(X,Y) offset (meters): (35.9163,-71.5309)
+	GPS: -0.000642573 latitude, 0.000322642 longitude
+Keypoint: 108
+	(X,Y): (1597.9,290.32)
+	(X,Y) offset (meters): (-6.02384,-93.2334)
+	GPS: -0.00083753 latitude, -5.41131e-05 longitude
+Keypoint: 109
+	(X,Y): (2839.95,668.693)
+	(X,Y) offset (meters): (51.4831,-75.7147)
+	GPS: -0.000680157 latitude, 0.000462481 longitude
+Keypoint: 110
+	(X,Y): (3264.2,217.062)
+	(X,Y) offset (meters): (71.1262,-96.6253)
+	GPS: -0.000867999 latitude, 0.000638937 longitude
+Keypoint: 111
+	(X,Y): (1344.74,617.467)
+	(X,Y) offset (meters): (-17.7447,-78.0865)
+	GPS: -0.000701463 latitude, -0.000159404 longitude
+Keypoint: 112
+	(X,Y): (409.38,296.537)
+	(X,Y) offset (meters): (-61.0521,-92.9455)
+	GPS: -0.000834944 latitude, -0.00054844 longitude
+Keypoint: 113
+	(X,Y): (1215.59,140.495)
+	(X,Y) offset (meters): (-23.7247,-100.17)
+	GPS: -0.000899845 latitude, -0.000213122 longitude
+Keypoint: 114
+	(X,Y): (755.293,589.076)
+	(X,Y) offset (meters): (-45.0363,-79.401)
+	GPS: -0.000713271 latitude, -0.000404568 longitude
+Keypoint: 115
+	(X,Y): (2264.56,140.762)
+	(X,Y) offset (meters): (24.8428,-100.158)
+	GPS: -0.000899734 latitude, 0.000223166 longitude
+Keypoint: 116
+	(X,Y): (603.071,676.765)
+	(X,Y) offset (meters): (-52.0842,-75.341)
+	GPS: -0.0006768 latitude, -0.00046788 longitude
+Keypoint: 117
+	(X,Y): (1739.37,365.489)
+	(X,Y) offset (meters): (0.526646,-89.7531)
+	GPS: -0.000806266 latitude, 4.73094e-06 longitude
+Keypoint: 118
+	(X,Y): (1392.28,149.871)
+	(X,Y) offset (meters): (-15.544,-99.7362)
+	GPS: -0.000895945 latitude, -0.000139634 longitude
+Keypoint: 119
+	(X,Y): (266.709,376.838)
+	(X,Y) offset (meters): (-67.6578,-89.2276)
+	GPS: -0.000801545 latitude, -0.00060778 longitude
+Keypoint: 120
+	(X,Y): (2173.31,267.547)
+	(X,Y) offset (meters): (20.6178,-94.2878)
+	GPS: -0.000847001 latitude, 0.000185213 longitude
+Keypoint: 121
+	(X,Y): (2538.85,207.163)
+	(X,Y) offset (meters): (37.5423,-97.0835)
+	GPS: -0.000872116 latitude, 0.000337248 longitude
